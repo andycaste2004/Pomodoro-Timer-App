@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Timer App</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="container">
+        <div id="board">
+            <h1 id="timeStatus">Work Time</h1>
+            <div id="workTimer">25:00</div>
+            <button id="startBtn" onclick="start()">Start</button>
+            <button id="resetBtn" onclick="reset()">Reset</button>
+            <button id="stopBtn" onclick="stop()">Stop</button>
+
+            <div id="breakTimer" style="display: none;">05:00</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

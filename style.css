@@ -1,0 +1,76 @@
+#workTimer {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#breakTimer {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#startBtn {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+  }
+  
+  #startBtn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slight grow on hover */
+  }
+
+  #resetBtn {
+    background-color: lightblue; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+  }
+  
+  #resetBtn:hover {
+    background-color: lightblue; /* Darker green on hover */
+    transform: scale(1.05); /* Slight grow on hover */
+  }
+  
+  #stopBtn {
+    background-color: red; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+  }
+  
+  #stopBtn:hover {
+    background-color: red; /* Darker green on hover */
+    transform: scale(1.05); /* Slight grow on hover */
+  }
+  
+  
